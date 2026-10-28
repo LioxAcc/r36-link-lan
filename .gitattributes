@@ -1,0 +1,4 @@
+# Force LF line endings on shell scripts, even when cloned on Windows.
+# CRLF breaks bash scripts on the console.
+*.sh text eol=lf
+*.md text eol=lf
